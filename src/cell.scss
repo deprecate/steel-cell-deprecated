@@ -1,15 +1,14 @@
 @import "../bower_components/steel-bootstrap/src/_variables.scss";
 @import "../bower_components/steel-bootstrap/src/_mixins.scss";
-@import "../bower_components/steel-bootstrap/src/_utilities.scss";
 
 .cell {
 	@include anim(box-shadow);
-	@extend .round;
-	@extend .shadow-z1;
 	background: $white;
+	border-radius: $border-radius-small;
 	border: 1px solid rgba($secondary, 0.12);
+	box-shadow: $shadow-small;
 }
 
 .cell:hover {
-	@extend .shadow-z2;
+	box-shadow: $shadow-large;
 }
