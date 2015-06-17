@@ -1,6 +1,9 @@
 @import "../bower_components/steel-bootstrap/src/_variables.scss";
 @import "../bower_components/steel-bootstrap/src/_mixins.scss";
 
+/* Cell
+	 ========================================================================== */
+
 .cell {
 	@include anim(box-shadow);
 	background: $white;
