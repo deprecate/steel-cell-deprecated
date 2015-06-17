@@ -1,0 +1,13 @@
+.round, .cell {
+  border-radius: 2px; }
+
+.shadow-z1, .cell {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08); }
+
+.shadow-z2, .cell:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12); }
+
+.cell {
+  transition: box-shadow 0.3s ease-in-out;
+  background: #fff;
+  border: 1px solid rgba(35, 50, 64, 0.12); }
